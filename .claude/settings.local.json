@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs file:*)",
+      "Bash(done)",
+      "Bash(for split:*)",
+      "Bash(do echo:*)",
+      "Read(//home/fs-ai/YOLO-crack-detection/dataset/ultralytics/images/**)",
+      "Bash(nvidia-smi)",
+      "Bash(unzip -l /home/fs-ai/YOLO-crack-detection/dataset/DATA_Maguire_20180517_ALL.zip)",
+      "Bash(unzip -l /home/fs-ai/YOLO-crack-detection/dataset/DATA_Maguire_20180517_ALL.zip \"DATA_Maguire_20180517_ALL/SDNET2018.zip\" -Z1)",
+      "Bash(unzip:*)",
+      "Bash(zipinfo -1 /home/fs-ai/YOLO-crack-detection/dataset/DATA_Maguire_20180517_ALL.zip)",
+      "Bash(pip list:*)",
+      "Bash(python3:*)",
+      "Bash(python model.py)",
+      "Bash(python:*)",
+      "mcp__plugin_everything-claude-code_sequential-thinking__sequentialthinking"
+    ]
+  }
+}

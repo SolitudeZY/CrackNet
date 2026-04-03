@@ -1,0 +1,95 @@
+# ========== 模型文件忽略规则 ==========
+
+# 通用模型文件扩展名
+*.bin
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.gguf
+*.ggml
+*.gguf
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.weights
+*.onnx
+*.tflite
+*.pb
+*.tflite
+
+# PyTorch 相关
+pytorch_model.bin
+pytorch_model*.bin
+model*.bin
+*.pth.tar
+*.pth.zip
+
+# TensorFlow/Keras
+*.index
+*.data-00000-of-00001
+*.meta
+variables/
+saved_model.pb
+*.pb.txt
+
+# Hugging Face Transformers
+pytorch_model.bin
+tf_model.h5
+flax_model.msgpack
+rust_model.ot
+*.safetensors
+*.index.json
+*.data-00000-of-*
+
+# ONNX
+*.onnx
+*.ort
+
+# OpenVINO
+*.xml
+*.bin
+
+# Core ML
+*.mlmodel
+*.mlpackage
+
+# 特定文件夹
+models/
+checkpoints/
+saved_models/
+weights/
+runs/
+experiments/
+outputs/
+logs/
+
+# 特定模型框架
+bert/
+gpt/
+llama/
+alpaca/
+vicuna/
+stable-diffusion/
+controlnet/
+lora/
+dreambooth/
+
+# 缓存文件夹
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
