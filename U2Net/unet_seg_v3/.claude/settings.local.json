@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E '\\\\.\\(json|yaml|yml|cfg|txt\\)$')",
+      "Bash(ls /home/fs-ai/YOLO-crack-detection/dataset/deepcrack/CrackTree260_augmented/images/6192*)",
+      "Bash(identify /home/fs-ai/YOLO-crack-detection/dataset/deepcrack/CrackTree260_augmented/images/6192_r00_fh_bl.jpg)",
+      "Bash(find /home/fs-ai/YOLO-crack-detection/scripts/unet_seg_v* -name \"*.py\")",
+      "Bash(xargs cat:*)",
+      "Bash(ls -lh runs/train/exp_*/weights/*.pt)",
+      "Bash(python3 model.py)",
+      "Bash(python3:*)",
+      "Bash(file /home/fs-ai/YOLO-crack-detection/dataset/crack500/CRACK500/traincrop/traincrop/*.jpg)",
+      "Bash(file /home/fs-ai/YOLO-crack-detection/dataset/crack500/CRACK500/traincrop/traincrop/*.png)",
+      "Bash(file /home/fs-ai/YOLO-crack-detection/dataset/crack500/CRACK500/valcrop/valcrop/*.jpg)",
+      "Bash(file /home/fs-ai/YOLO-crack-detection/dataset/crack500/CRACK500/valcrop/valcrop/*.png)",
+      "Bash(file /home/fs-ai/YOLO-crack-detection/dataset/crack500/CRACK500/testcrop/testcrop/*.jpg)",
+      "Bash(file /home/fs-ai/YOLO-crack-detection/dataset/crack500/CRACK500/testcrop/testcrop/*.png)"
+    ]
+  }
+}

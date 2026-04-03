@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/fs-ai/YOLO-crack-detection/scripts/unet_seg_u2net/**)",
+      "Bash(python debug.py)",
+      "Bash(python debug4.py)",
+      "Bash(python test_validate.py)",
+      "Bash(python:*)"
+    ]
+  }
+}

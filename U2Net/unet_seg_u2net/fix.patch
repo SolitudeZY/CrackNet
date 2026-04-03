@@ -1,0 +1,16 @@
+--- train.py	2024-05-18 10:00:00.000000000 +0800
++++ train.py	2024-05-18 10:05:00.000000000 +0800
+@@ -107,14 +107,14 @@
+             if not isinstance(outputs, (tuple, list)):
+                 outputs = (outputs,)
+             loss, _ = criterion(outputs, masks)
+ 
+             # 防止损失中的 Nan 破坏所有权重
+             if torch.isnan(loss) or torch.isinf(loss):
+                 print(f"  [Warning] Batch {i} returned NaN loss, skipping...")
+                 continue
+ 
+             if accumulation_steps > 1:
+                 loss = loss / accumulation_steps
+ 
+         scaler.scale(loss).backward()

@@ -1,0 +1,14 @@
+{
+    "dataset_name": "CRACK500",
+    "dataset_path": "/home/fs-ai/YOLO-crack-detection/dataset/crack500/CRACK500/traincrop/traincrop",
+    "mean": [
+        0.4941634055381666,
+        0.4959268229935071,
+        0.4967979183854969
+    ],
+    "std": [
+        0.17464150440477055,
+        0.17255232549416955,
+        0.16895335094709257
+    ]
+}
