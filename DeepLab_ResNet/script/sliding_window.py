@@ -1,5 +1,5 @@
 """
-Sliding-window inference helpers for CrackNet.
+Sliding-window inference helpers for DeepLab.
 """
 from __future__ import annotations
 
